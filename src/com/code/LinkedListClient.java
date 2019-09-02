@@ -9,7 +9,8 @@ public class LinkedListClient {
         ll.addLast(30);
         ll.addLast(40);
         ll.addLast(50);
-        System.out.println(ll.getAt(4));
+        System.out.println(ll.removeLast());
+        ll.display();
 
 
 
