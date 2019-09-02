@@ -14,13 +14,13 @@ public class LinkedList {
     //O(n)
     public void display(){
 
-        System.out.println("=====================");
         Node temp = this.head;
 
         while(temp != null){
             System.out.print(temp.data + " ");
             temp = temp.next;
         }
+        System.out.println();
     }
 
     //O(n)
@@ -291,5 +291,15 @@ public class LinkedList {
         }
     }
 
+    public int getSize(){
+        return this.size;
+    }
+
+    public boolean isEmpty(){
+        if(this.size == 0)
+            return true;
+        else
+            return false;
+    }
 
 }

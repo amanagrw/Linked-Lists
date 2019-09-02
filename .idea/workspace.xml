@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73fb08c1-1246-4ec5-9995-9a7787a5b440" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/code/LL_As_Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/LL_As_QueueClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/LL_As_Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/LL_As_StackClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/code/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/code/LinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/code/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/code/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/code/LinkedListClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/code/LinkedListClient.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,29 +22,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/code/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="224" column="24" selection-start-line="224" selection-start-column="24" selection-end-line="224" selection-end-column="24" />
+            <state relative-caret-position="-118">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
               <folding>
                 <element signature="method#display#0;class#LinkedList#0" />
                 <element signature="method#getAt#0;class#LinkedList#0" />
                 <element signature="n#!!doc;n#getNodeAt#0;n#LinkedList#0" />
                 <element signature="method#getNodeAt#0;class#LinkedList#0" />
                 <element signature="method#addAt#0;class#LinkedList#0" />
-                <element signature="method#removeFirst#0;class#LinkedList#0" />
                 <element signature="method#removeLast#0;class#LinkedList#0" />
                 <element signature="method#removeAt#0;class#LinkedList#0" />
                 <element signature="n#!!doc;n#reverseData#0;n#LinkedList#0" />
                 <element signature="method#reverseData#0;class#LinkedList#0" />
                 <element signature="n#!!doc;n#reversePointers#0;n#LinkedList#0" />
                 <element signature="method#reversePointers#0;class#LinkedList#0" />
+                <element signature="method#getMidNodeData#0;class#LinkedList#0" />
                 <element signature="method#getFirst#0;class#LinkedList#0" />
                 <element signature="method#getLast#0;class#LinkedList#0" />
                 <element signature="method#addLast#0;class#LinkedList#0" />
                 <element signature="method#addFirst#0;class#LinkedList#0" />
+                <element signature="method#isEmpty#0;class#LinkedList#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/code/LL_As_Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#101#102#0" expanded="true" />
+                <element signature="e#140#141#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#593#594#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/code/LL_As_QueueClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/code/LL_As_Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+              <folding>
+                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/code/LL_As_StackClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -70,7 +135,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/code/LinkedListClient.java" />
+        <option value="$PROJECT_DIR$/src/com/code/LL_As_Queue.java" />
         <option value="$PROJECT_DIR$/src/com/code/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/code/LL_As_QueueClient.java" />
+        <option value="$PROJECT_DIR$/src/com/code/LL_As_Stack.java" />
+        <option value="$PROJECT_DIR$/src/com/code/LL_As_StackClient.java" />
       </list>
     </option>
   </component>
@@ -86,7 +155,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,7 +178,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -128,7 +197,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedListClient">
+  <component name="RunManager" selected="Application.LL_As_StackClient">
+    <configuration name="LL_As_QueueClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.code.LL_As_QueueClient" />
+      <module name="LinkedList" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LL_As_StackClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.code.LL_As_StackClient" />
+      <module name="LinkedList" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkedListClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.code.LinkedListClient" />
       <module name="LinkedList" />
@@ -157,9 +242,13 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.LinkedListClient" />
+      <item itemvalue="Application.LL_As_QueueClient" />
+      <item itemvalue="Application.LL_As_StackClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LL_As_StackClient" />
+        <item itemvalue="Application.LL_As_QueueClient" />
         <item itemvalue="Application.LinkedListClient" />
       </list>
     </recent_temporary>
@@ -175,25 +264,27 @@
       <option name="presentableId" value="Default" />
       <updated>1567271795451</updated>
       <workItem from="1567271806884" duration="9508000" />
-      <workItem from="1567357838014" duration="9525000" />
+      <workItem from="1567357838014" duration="10964000" />
+      <workItem from="1567411593789" duration="964000" />
+      <workItem from="1567416939222" duration="3912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19033000" />
+    <option name="totallyTimeSpent" value="25348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -232,26 +323,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/code/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="224" column="24" selection-start-line="224" selection-start-column="24" selection-end-line="224" selection-end-column="24" />
+        <state relative-caret-position="-118">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="method#display#0;class#LinkedList#0" />
             <element signature="method#getAt#0;class#LinkedList#0" />
             <element signature="n#!!doc;n#getNodeAt#0;n#LinkedList#0" />
             <element signature="method#getNodeAt#0;class#LinkedList#0" />
             <element signature="method#addAt#0;class#LinkedList#0" />
-            <element signature="method#removeFirst#0;class#LinkedList#0" />
             <element signature="method#removeLast#0;class#LinkedList#0" />
             <element signature="method#removeAt#0;class#LinkedList#0" />
             <element signature="n#!!doc;n#reverseData#0;n#LinkedList#0" />
             <element signature="method#reverseData#0;class#LinkedList#0" />
             <element signature="n#!!doc;n#reversePointers#0;n#LinkedList#0" />
             <element signature="method#reversePointers#0;class#LinkedList#0" />
+            <element signature="method#getMidNodeData#0;class#LinkedList#0" />
             <element signature="method#getFirst#0;class#LinkedList#0" />
             <element signature="method#getLast#0;class#LinkedList#0" />
             <element signature="method#addLast#0;class#LinkedList#0" />
             <element signature="method#addFirst#0;class#LinkedList#0" />
+            <element signature="method#isEmpty#0;class#LinkedList#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/code/LL_As_Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/code/LL_As_Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/code/LL_As_QueueClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/code/LL_As_StackClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>

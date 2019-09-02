@@ -13,6 +13,5 @@ public class LinkedListClient {
         ll.display();
 
 
-
     }
 }
